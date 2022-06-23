@@ -1,0 +1,49 @@
+.Hebergement {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background: #F7F7F7;
+    border-radius: 25px;
+    margin-top:50px;
+    padding:30px
+}
+
+.Hebergement li {
+    margin: 10px 60px 0px 60px;
+}
+
+.Hebergement figure {
+    margin:15px 0;
+    width: 340px;
+    height: 340px;
+}
+
+.Cover-Hebergement{
+    width:340px; 
+    height: 340px;
+    object-fit:cover;
+    border-radius:15px;
+    opacity: 0.8;
+}
+
+.Title-Hebergement{
+    position: relative;
+    bottom: 74px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 300px;
+    color: white;
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 844px){
+    .Hebergement {
+        justify-content: center;
+       width: 100%;
+        background: white;
+        margin-top:0;
+       li{
+           margin:0;
+       }
+    }
+ }

@@ -1,0 +1,57 @@
+.carousel-box{
+    width:100%;
+    height: 415px;
+
+    .carousel-img{
+        display: none;
+    }
+
+    .carousel-controls{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom:55%;
+
+        .btn-prev.left, .btn-next.right {
+            border:none; 
+            background: center center / 100% 100%;
+            position: absolute; 
+            top: 0;
+            right: 0;
+            height: 100%;
+            margin-left: 10px;
+            margin-right:10px;
+            z-index: 2;
+            cursor: pointer;
+        }
+    
+        .btn-prev.left{
+            background:url('../../assets/prev.svg') no-repeat;
+            position: relative;
+            right: auto;
+            left: 0 ;
+            width: 50px;
+            height: 50px;
+        }
+    
+        .btn-next.right{
+            background:url('../../assets/next.svg') no-repeat;
+            position: relative;
+            left: auto;
+            right: 0 ;
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+
+    
+}
+
+.display-img {
+    display: block;
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+    border-radius: 25px;
+}
