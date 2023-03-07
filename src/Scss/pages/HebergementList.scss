@@ -1,6 +1,7 @@
 .Hebergement {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     list-style-type: none;
     background: #F7F7F7;
     border-radius: 25px;
@@ -9,28 +10,30 @@
 }
 
 .Hebergement li {
-    margin: 10px 60px 0px 60px;
+    margin: 0px 32px;
+    transition:2s;
+    &:hover .Cover-Hebergement {
+       opacity: 0.6;
+    }
 }
 
 .Hebergement figure {
-    margin:15px 0;
     width: 340px;
-    height: 340px;
 }
 
 .Cover-Hebergement{
-    width:340px; 
+    width:100%; 
     height: 340px;
     object-fit:cover;
     border-radius:15px;
-    opacity: 0.8;
+
 }
 
 .Title-Hebergement{
     position: relative;
     bottom: 74px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     width: 300px;
     color: white;
     margin: 0 20px;
@@ -39,11 +42,11 @@
 @media screen and (max-width: 844px){
     .Hebergement {
         justify-content: center;
-       width: 100%;
+        width: 100%;
         background: white;
         margin-top:0;
        li{
-           margin:0;
+           margin:10px;
        }
     }
  }

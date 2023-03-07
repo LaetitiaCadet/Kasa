@@ -2,19 +2,19 @@ import React from 'react';
 import "../Scss/components/_Information.scss";
 
 
-function Information ({ id, title, description, host, rating, location, equipments,tags}) {
+function Information ({ id, title, description, host, rating, location, equipments, tags}) {
     let parseRating = parseInt(rating)
 
     return(
         <div key={id} className="information-box">
             <div className='host-presentation'>
-                <div className='row'>
-                    <div className='col-10'>
+                <div className='d-flex justify-content-between'>
+                    <div className=''>
                         <h2>{title}</h2>
                         <p>{location}</p>
                         {tags.map(tag => <span className="badge bg-primary">{tag}</span> )}
                     </div>
-                    <div className='col-2'>
+                    <div className=''>
                             <div className='host-id'>
                                 <p className='host-name'>{host.name}</p>
                                 <img className='host-profil' src={host.picture} alt={host.name}/>

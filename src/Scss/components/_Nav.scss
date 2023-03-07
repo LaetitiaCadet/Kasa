@@ -3,8 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 25px;
-    margin-bottom:25px;
+    margin:15px;
 
     .Nav-logo {
       background-image: url('../../assets/logo.png');
@@ -23,17 +22,23 @@
     .Nav-items li {
       margin: 0 15px;
       width: 110px;
+      &:hover a{
+        border-bottom: 3px solid #FF6060;
+      }
     }
     
     @media screen and (max-width: 844px){
       .Nav-logo {
-        background-image: url('../../assets/logo.png');
         background-size: contain;
         height: 43px;
+        width: 100%;
+
       }
       .Nav-items{
         align-items: center;
-        width: 110px;
+        text-align: center;
+        padding: 0;
+        width: 180px;
       }
       .Nav-items a{
         font-size:12px;
