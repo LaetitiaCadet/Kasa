@@ -14,15 +14,16 @@ const root = ReactDOM.createRoot(
   document.getElementById('root')
   );
 root.render(
-    <HashRouter basename="/">
-      <Routes>
-        <Route path="/" element={<Home />} />
+  <BrowserRouter basename='{process.env.PUBLIC_URL}'>
+    <Routes>
+        <Route exact path="/" element={<Home />} />
         <Route path="About" element={<About />} />
         <Route path="Accommodation" element={<Accommodation />} />
         <Route path="/404" element={<Navigate to={<NotFound/>}/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-    </HashRouter>
+  </BrowserRouter>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
