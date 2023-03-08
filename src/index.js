@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root')
   );
 root.render(
-  <BrowserRouter basename='{process.env.PUBLIC_URL}'>
+  <HashRouter basename='/'>
     <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="About" element={<About />} />
@@ -22,7 +22,7 @@ root.render(
         <Route path="/404" element={<Navigate to={<NotFound/>}/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-  </BrowserRouter>
+  </HashRouter>
 
 );
 
