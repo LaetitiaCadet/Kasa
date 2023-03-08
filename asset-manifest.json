@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Kasa/static/css/main.cb6014ad.css",
-    "main.js": "/Kasa/static/js/main.e8acc7aa.js",
-    "static/js/787.56ea73d0.chunk.js": "/Kasa/static/js/787.56ea73d0.chunk.js",
-    "static/media/backgroundHome.png": "/Kasa/static/media/backgroundHome.024f945a990ae17b81b7.png",
-    "static/media/backgroundAbout.jpg": "/Kasa/static/media/backgroundAbout.3827f97bdcef0854551d.jpg",
-    "index.html": "/Kasa/index.html",
-    "static/media/star_rate.svg": "/Kasa/static/media/star_rate.3475fcb7a22f01e25dae.svg",
-    "static/media/star.svg": "/Kasa/static/media/star.5ff2493a0a3e5d95fa8a.svg",
-    "static/media/expanIcon.svg": "/Kasa/static/media/expanIcon.cec70c8e7f3114101f1b.svg",
-    "static/media/next.svg": "/Kasa/static/media/next.b5cae4d30852ad7319ab.svg",
-    "static/media/prev.svg": "/Kasa/static/media/prev.11fb559b7da8bedac6cf.svg",
-    "main.cb6014ad.css.map": "/Kasa/static/css/main.cb6014ad.css.map",
-    "main.e8acc7aa.js.map": "/Kasa/static/js/main.e8acc7aa.js.map",
-    "787.56ea73d0.chunk.js.map": "/Kasa/static/js/787.56ea73d0.chunk.js.map"
+    "main.css": "/kasa/static/css/main.938c13ad.css",
+    "main.js": "/kasa/static/js/main.d11cfd48.js",
+    "static/js/787.56ea73d0.chunk.js": "/kasa/static/js/787.56ea73d0.chunk.js",
+    "static/media/backgroundHome.png": "/kasa/static/media/backgroundHome.024f945a990ae17b81b7.png",
+    "static/media/backgroundAbout.jpg": "/kasa/static/media/backgroundAbout.3827f97bdcef0854551d.jpg",
+    "index.html": "/kasa/index.html",
+    "static/media/star_rate.svg": "/kasa/static/media/star_rate.3475fcb7a22f01e25dae.svg",
+    "static/media/star.svg": "/kasa/static/media/star.5ff2493a0a3e5d95fa8a.svg",
+    "static/media/expanIcon.svg": "/kasa/static/media/expanIcon.cec70c8e7f3114101f1b.svg",
+    "static/media/next.svg": "/kasa/static/media/next.b5cae4d30852ad7319ab.svg",
+    "static/media/prev.svg": "/kasa/static/media/prev.11fb559b7da8bedac6cf.svg",
+    "main.938c13ad.css.map": "/kasa/static/css/main.938c13ad.css.map",
+    "main.d11cfd48.js.map": "/kasa/static/js/main.d11cfd48.js.map",
+    "787.56ea73d0.chunk.js.map": "/kasa/static/js/787.56ea73d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb6014ad.css",
-    "static/js/main.e8acc7aa.js"
+    "static/css/main.938c13ad.css",
+    "static/js/main.d11cfd48.js"
   ]
 }
