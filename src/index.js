@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter,   Routes,
-  Route, Navigate} from "react-router-dom";
+  Route, Navigate, HashRouter} from "react-router-dom";
 import './Scss/Main.scss';
 import '../node_modules/bootstrap/dist/js/bootstrap'
 import Home from './Pages/Home';
@@ -15,13 +15,15 @@ const root = ReactDOM.createRoot(
   );
 root.render(
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="About" element={<About />} />
-        <Route path="Accommodation" element={<Accommodation />} />
-        <Route path="/404" element={<Navigate to={<NotFound/>}/>} />
-        <Route path="*" element={<NotFound/>} />
-      </Routes>
+      <HashRouter basename="/">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="About" element={<About />} />
+          <Route path="Accommodation" element={<Accommodation />} />
+          <Route path="/404" element={<Navigate to={<NotFound/>}/>} />
+          <Route path="*" element={<NotFound/>} />
+        </Routes>
+      </HashRouter>
     </BrowserRouter>
 );
 
